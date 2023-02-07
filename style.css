@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background: rgba(255, 0, 0, 0.882);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(230, 229, 239);
+    background-image: url(https://www.eggplante.com/wp-content/uploads/2021/07/deadspaceremake-scaled.jpg);
+background-size: 1400px;
+
+}
+
+
+footer{
+   margin-top: 50%;
+   right: 5%;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ color: rgb(242, 4, 4)
+ 
+
+}
+
+.container{
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0px auto;
+    perspective: 900px;
+}
+
+.carrossel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 40s infinite forwards linear;
+}
+
+.imagem{
+    position: absolute;
+    width: 290px;
+    height: 187px;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0 ,0.5 );
+    display: flex;
+}
+
+
+.imagem span{
+    margin: auto;
+    font-size: 1em;
+
+}
+
+@keyframes rotate360{
+    from{
+        transform: rotateY(0deg);
+    }
+
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+
+.imagem:nth-child(1) {
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2022/03/dead-space-remake-1024x536.jpg);
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+.imagem:nth-child(2){
+    background-image: url(https://meups.com.br/wp-content/uploads/2022/11/Dead-Space-Remake.jpg);
+    transform: rotateY(40deg) translateZ(430px);
+}
+
+.imagem:nth-child(3){
+    background-image: url(https://lh4.googleusercontent.com/-BRpRW3VdAB0/TWnUax2zwWI/AAAAAAAAAXo/xf5xO0pF-bA/s1600/Dead+Space+Monster.jpg);
+    transform: rotateY(80deg) translateZ(430px);
+}
+
+.imagem:nth-child(4){
+    background-image: url(https://preview.redd.it/first-look-at-kendra-daniels-in-the-remake-v0-onqcbk7tlst91.png?width=752&format=png&auto=webp&s=ef2d462bc071ec311e6a39fe92accb548a1ef0f7);
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.imagem:nth-child(5){
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPBXLLVob7LJBEoG4wtbfVaSP4dFcQa_10C37iXMaLHi2EY7HSvYx15zPaLy6uQWmjx88&usqp=CAU);
+transform: rotateY(160deg) translateZ(430px);
+}
+
+
+.imagem:nth-child(6){
+    background-image: url(https://media.moddb.com/cache/images/downloads/1/197/196215/thumb_620x2000/Logo.jpg);
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+.imagem:nth-child(7){
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c0c7f79-eae5-414a-9d62-0075a1cddde8/d24pnp9-a49d353c-85ac-4ccf-9931-0295bdd02d28.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNjMGM3Zjc5LWVhZTUtNDE0YS05ZDYyLTAwNzVhMWNkZGRlOFwvZDI0cG5wOS1hNDlkMzUzYy04NWFjLTRjY2YtOTkzMS0wMjk1YmRkMDJkMjguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pFQlN7ueBqoi-CHIjO7y1SbMk2Z15tc39Qkbt8noHYU);
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+.imagem:nth-child(8){
+    background-image: url(https://assets.reedpopcdn.com/dead-space_ZAySh9Q.jpg/BROK/thumbnail/1600x900/quality/100/dead-space_ZAySh9Q.jpg);
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+.imagem:nth-child(9){
+background-image: url(https://twinfinite.net/wp-content/uploads/2023/01/Dead-Space-remake-scary-monsters-Hive-mind.jpg);
+transform: rotateY(320deg) translateZ(430px);
+}
+
+
+h1{
+    color: red;
+}
+
